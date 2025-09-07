@@ -1,1 +1,38 @@
-body{background-color: aliceblue;}
+body{background-color: rgb(255, 255, 255);
+margin:0;
+padding: 0;
+}
+
+header{background-color: black;
+display:flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;}
+
+header > h1{color: white;
+font-family: "Luckiest Guy", cursive;
+font-weight: 800;
+font-style: normal;
+font-size: 2.6rem;
+padding:0px 15px;}
+
+.logo{height: 80px;
+width: 80px;
+border-radius: 50%;
+padding:15px;}
+
+.container{width:90vw;
+height:auto;
+margin:auto;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;}
+
+h2{font-size:2.6rem;}
+
+/* ------------- Fonts ------------- */
+
+/* Luckiest Guy */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Luckiest+Guy&display=swap');
